@@ -110,3 +110,19 @@ What was *not* deferred, because it is cheap now and expensive later: `numbers.o
 Whoever forwards a call usually pays for the forwarded leg in the EU. A surprise on
 the first invoice costs more trust than it saves in setup friction, so this belongs in
 the onboarding copy, not in a support article.
+
+**2026-08-20 — Redraw the logo as clean vector, and draw a 16 px icon.**
+Everything in `docs/brand/opendial_logo/` is traced from raster artwork, not drawn.
+It renders correctly and scales, but the full-colour marks are ~200 colour-band
+paths each, so they cannot be recoloured or edited.
+
+Single-colour treatments now exist — knockout, outline and silhouette, each in
+purple, white and black — and the knockout mark is readable down to about 32 px.
+Two things are still missing, and both are deferred:
+
+- A hand-drawn vector version with real editable paths, so a colour is one value.
+- A purpose-drawn 16 px icon. Every current treatment is a smudge at that size,
+  and 16 px is what the browser tab actually shows.
+
+Deferred because Milestone 0 is a two-week time box and no call has been answered
+yet. A logo blocks nothing. Revisit once the phone rings and the agent replies.
